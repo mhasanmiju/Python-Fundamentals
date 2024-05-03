@@ -97,6 +97,8 @@ print(f"Your password is: {passw}")
 lu=[]
 lent= int(input("Input the length of the lis: "))
 for i in range(lent):
-     a = input("Input the values of the list: ")
+     a = int(input("Input the values of the list: "))
      lu.append(a)
-print(f"The list is: {lu}") 
+print(f"The list is: {lu}")   
+l2 = [x for x in lu if x % 2 == 0]
+print(f"The even numbers in the list are: {l2}")
