@@ -108,7 +108,11 @@ elif size =="L" :
    else:
        Bill = 25
 print(f"You have to Pay ${Bill}")
-
-
-
-
+#%%
+#Check it a Square or not
+length = int(input("please input a length\n"))
+width = int(input("Please input a width\n"))
+if length == width :
+    print("It's a Square")
+else:
+    print("It's not a Square")
