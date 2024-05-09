@@ -5,11 +5,11 @@ print(f'Length of the string is : {Lenght_of_string}')
 
 #%%
 #Type Casting
-print(f'Type of the Lenght_of_string Variable: { type(Lenght_of_string)}')
+print(f'Type of the Lenght_of_string Variable: {type(Lenght_of_string)}')
 
 # Now change it Integer to String type
 newType = str(Lenght_of_string)
-print(f'Newtype of Lenght_of_string Variable is: { type(newType)}')
+print(f'Newtype of Lenght_of_string Variable is: {type(newType)}')
 
 #write a code that add two digit number e.g input 85 output 8+5=13
 digit= input("Type a two digit number\n")
@@ -40,9 +40,9 @@ BMI = Weight/(Height)**2
 print(f'Your BMI is : {BMI}')
 
 #%%
-#Create a program from your input age it will tell how many days, weeks 
+#Create a program from your input age it will tell how many days, weeks
 #and months left if your hayat to live is 90 years
-year = int(input("Input your age\n") )
+year = int(input("Input your age\n"))
 l_year = 90 - year
 #count is include leap year
 days = (l_year/4)+(l_year*365)
@@ -54,7 +54,7 @@ print(f"{l_year} Years = {days} Days, {int(weeks)} Weeks and {months} Months")
 print("Welcome to tip calculator")
 Total_bill = float(input("Put your total bill please\n"))
 Tip_percentage = int(input("Kindly type your tip Percentage from these options 10 or 12 or 15\n"))
-Bill_include_tip = Total_bill + (Total_bill *(Tip_percentage/100))
+Bill_include_tip = Total_bill + (Total_bill * (Tip_percentage/100))
 print(f"Total bill after tip include{Bill_include_tip}")
 #How many people slit the bill
 Total_person= float(input("How many people split the bill\n"))

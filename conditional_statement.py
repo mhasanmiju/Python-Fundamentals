@@ -5,9 +5,8 @@ Number = int(input("Kindly input a integer number\n"))
 if Number % 2 == 0:
     print(f"{Number} is Even")
 else:
-    print(f"{Number} is odd")             
+    print(f"{Number} is odd")
 
-     
 #%%
 # Update BMI.2 calculater from users weight (kg) and height(m)
 

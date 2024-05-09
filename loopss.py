@@ -102,3 +102,11 @@ for i in range(lent):
 print(f"The list is: {lu}")   
 l2 = [x for x in lu if x % 2 == 0]
 print(f"The even numbers in the list are: {l2}")
+#%%
+se = {}
+item = int(input("Input number of items you want: "))
+for i in range(item):
+    key = input("Input the key: ")
+    val = input("Input the value: ")
+    se[key] = val
+print(f"The dictionary is: {se}")

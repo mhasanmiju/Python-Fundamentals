@@ -15,3 +15,4 @@ for i in range(4,-1,-1):
 import pandas as pd
 df= pd.read_excel(r"C:\Users\HP\Downloads\Crime Rate Dataset.xlsx")
 print(df.head()) 
+df.shape
